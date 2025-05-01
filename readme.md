@@ -1,4 +1,3 @@
-```markdown
 # Exploratory Data Analysis (EDA) on MAGIC Gamma Telescope Dataset
 
 ## Project Overview
@@ -97,5 +96,3 @@ This will:
 *   **Manage Correlation:** Be mindful of highly correlated features. Depending on the model choice, consider feature selection or using models with built-in regularization.
 *   **Class Imbalance:** Since the 'g' class is more frequent, use appropriate evaluation metrics (F1-score, Precision, Recall, AUC) and potentially consider resampling techniques (SMOTE, undersampling) during model training if the imbalance impacts performance significantly.
 *   **Model Selection:** The EDA suggests complex relationships and overlaps might exist, potentially favoring models capable of capturing non-linear boundaries (e.g., SVM with kernels, Random Forest, Gradient Boosting, Neural Networks).
-
-```
